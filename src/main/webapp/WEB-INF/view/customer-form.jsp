@@ -6,6 +6,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Add Customer</title>
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/webjars/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/webjars/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/add-customer-style.css">
 </head>
@@ -50,5 +55,10 @@
 			<a href="${pageContext.request.contextPath}/customer/list"> Back to List </a>
 		</div>
 	</div>
+	
+	<script type="text/javascript"
+		src="${pageContext.request.contextPath}/webjars/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="${pageContext.request.contextPath}/webjars/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
 </html>
